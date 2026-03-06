@@ -1,0 +1,187 @@
+<!Doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="normalize.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+           href="https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap"
+      rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&family=Rowdies:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/tablet.css" />
+    <link rel="stylesheet" type="text/css" href="css/mobile.css" />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header" id="home">
+        <div class="container header-row">
+          <a href="" class="logo"> AG </a>
+          <nav class="nav">
+          	<input type="checkbox"id="burger-toggle" class="input"name="">
+          	<label for="burger-toggle" class="burger">
+          		<span></span>
+          	</label>
+            <ul class="nav-list">
+              <li>
+                <a href="#home"> Home </a>
+              </li>
+              <li>
+                <a href="#about"> About </a>
+              </li>
+              <li>
+                <a href="#projects"> Projects </a>
+              </li>
+              <li>
+                <a href="#contacts" class="accent"> Contacts </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="wrap">
+          <div class="information">
+            <h1>Hi i'm Angelina</h1>
+            <p class="header__text">I’m a frontend developer.</p>
+            <form action="https://www.canva.com/design/DAHBGYGwDYQ/E597LPELy3eKPURiVBuWow/view?utm_content=DAHBGYGwDYQ&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hb74da5e754"class="header__button">
+              <button class="button">Download CV</button>
+            </form>
+          </div>
+          <div class="image">
+            <img src="img/second.png" alt="me" class="me" />
+          </div>
+        </div>
+      </header>
+      <main>
+        <section class="about" id="about">
+          <div class="container_content">
+            <div class="flexbox">
+              <h2 class="about__title">About me</h2>
+              <p class="about__text">
+               I’m a 15-year-old frontend developer currently studying at SHKM.<br> I create dark, contrasting and expressive interfaces. I work at the <br>intersection of aesthetics and logic — every element has a role. <br>I value minimalism, depth and clean typography.
+              </p>
+            </div>
+            <div class="enveloping">
+              <img src="img/first.jpg" alt="my photo" class="about__img" />
+            </div>
+          </div>
+        </section>
+
+        <section class="skills" id="skills">
+          <h2 class="skills__title">My skills</h2>
+          <div class="basis">
+            <div class="first">
+              <p class="first__text">frontend development</p>
+              <div class="first__line">
+                <div class="line__color"></div>
+              </div>
+            </div>
+            <div class="second">
+              <p class="second__text">Figma</p>
+              <div class="second__line">
+                <div class="line_color"></div>
+              </div>
+            </div>
+            <div class="third">
+              <p class="third__text">Backend development</p>
+              <div class="third__line">
+                <div class="third__line__color"></div>
+              </div>
+            </div>
+            <div class="another">
+              <p class="another__text">HTML/CSS</p>
+              <div class="another__line">
+                <div class="another__line__color"></div>
+              </div>
+            </div>
+            <div class="fourth">
+              <p class="fourth__text">JS</p>
+              <div class="fourth__line">
+                <div class="fourth__line__color"></div>
+              </div>
+            </div>
+            <div class="fifth">
+              <p class="fifth__text">React</p>
+              <div class="fifth__line">
+                <div class="fifth__line__color"></div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="projects" id="projects">
+          <h2 class="projects__title">
+            <span>Featured</span>
+            <br />Projects
+          </h2>
+          <div class="featured-images">
+           <a href="https://angelina-tm.github.io/tm/" class="first-link">
+            <img src="img/project.jpg" alt="Featured project image 3" />
+          </a>
+           <a href=" https://angelina-tm.github.io/angelinka/" class="first-link">
+            <img src="img/project.jpg" alt="Featured project image 2" />
+          </a>
+           <a href="https://angelina-tm.github.io/angelinka-tm/" class="first-link">
+            <img src="img/project.jpg" alt="Featured project image 3" />
+          </a>
+          </div>
+        </section>
+
+        <section class="contact">
+          <div class="contact-wrapper">
+            <h2 class="Contact_title">
+              Lets
+              <span>
+                <br />
+                Collaborate
+              </span>
+            </h2>
+
+            <form class="contact-form">
+              <div class="field">
+                <label for="name">Name</label>
+                <input type="text" id="name" placeholder="your name" />
+              </div>
+
+              <div class="field">
+                <label for="email">Email</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="your@gmail.com"
+                />
+              </div>
+
+              <div class="field">
+                <label for="subject">Subject</label>
+                <input
+                  type="text"
+                  id="subject"
+                  name="subject"
+                  placeholder="your subject"
+                />
+              </div>
+
+              <button type="submit" class="submit-button">send</button>
+            </form>
+          </div>
+        </section>
+      </main>
+      <footer class="footer" id="contacts">
+        <h3 class="footer__title">2026 Portfolio. All rights reserved.</h3>
+        <div class="footer__text">
+          <a href="" class="github"> Github </a>
+          <a href="" class="Linkedin"> Linkedin </a>
+          <a href="" class="Linkedin"> Telegram </a>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
